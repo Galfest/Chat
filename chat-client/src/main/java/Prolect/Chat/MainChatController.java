@@ -1,5 +1,6 @@
 package Prolect.Chat;
 
+import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -50,11 +51,25 @@ public class MainChatController implements Initializable {
     }
 
     public void sendMessage(ActionEvent actionEvent) {
+        String message = inputField.getText();
+        if (message.isBlank()){
+            return;
+        }
+        Object recipient = contactList.getSelectionModel().getSelectedItems();
+        mainChatArea.appendText(recipient + ": " + message + System.lineSeparator());
+        inputField.clear();
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        var contacts = new ArrayList<String>();
+        //var contacts = new ArrayList<String>(); Не работает "var".
 
+        ArrayList<String> contacts = new ArrayList<String>();
+        for (int i = 0; i < 10; i++) {
+            contacts.add("Contact#" + (i + 1));
+        }
+        contactList.setItems(FXCollections.observableList(contacts));
+        contactList.getSelectionModel().selectFirst();
     }
+
 }
