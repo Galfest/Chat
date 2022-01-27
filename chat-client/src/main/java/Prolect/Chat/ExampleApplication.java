@@ -1,3 +1,5 @@
+package Prolect.Chat;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -14,7 +16,7 @@ public class ExampleApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("/example.fxml"));
+        loader.setLocation(getClass().getResource("/mainChatWindow.fxml"));
         Parent parent = loader.load();
         Scene scene = new Scene(parent);
         primaryStage.setScene(scene);

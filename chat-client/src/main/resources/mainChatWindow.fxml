@@ -14,15 +14,15 @@
 <?import javafx.scene.control.Button?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="jetbrains://idea/navigate/reference?project=Chat&path=chat-client/pom.xml"
+            fx:controller="Prolect.Chat.MainChatController"
             prefHeight="400.0" prefWidth="600.0">
 
 
-    <VBox fx:id="main-chat-panel" >
+    <VBox fx:id="mainChatPanel" >
         <MenuBar>
             <Menu text="File">
-                <MenuItem text="Connect" onAction="#Connect-to-server"/>
-                <MenuItem text="Disconnect" onAction="#Disconnect-from-server"/>
+                <MenuItem text="Connect" onAction="#ConnectToServer"/>
+                <MenuItem text="Disconnect" onAction="#DisconnectFromServer"/>
                 <MenuItem text="item3" onAction="#mockAction"/>
                 <MenuItem text="item4" onAction="#mockAction"/>
                 <MenuItem text="Exit" onAction="#Exit"/>
@@ -61,14 +61,19 @@
             </Menu>
         </MenuBar>
         <HBox VBox.vgrow="ALWAYS">
-            <TextArea fx:id="mainChatArea" HBox.hgrow="ALWAYS"VBox.vgrow="ALWAYS">
+            <TextArea fx:id="mainChatArea" HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" editable="false">
                 <HBox.margin>
                     <Insets left="5" right="5"/>
                 </HBox.margin>
             </TextArea>
             <ListView fx:id="contactList" minWidth="125">
-                <Insets left="5" right="5"/>
+                <VBox.margin>
+                    <Insets left="5" right="5"/>
+                </VBox.margin>
             </ListView>
+            <HBox.margin>
+                <Insets top="5" bottom="5"/>
+            </HBox.margin>
         </HBox>
         <HBox VBox.vgrow="ALWAYS">
             <TextField fx:id="inputField" HBox.hgrow="ALWAYS" prefHeight="70" onAction="#sendMessage">
@@ -76,7 +81,7 @@
                     <Insets left="5" right="5"/>
                 </HBox.margin>
             </TextField>
-            <Button fx:id="btnSend" minWidth="125">
+            <Button fx:id="btnSend" minWidth="125" text="SEND" prefHeight="70" onAction="#sendMessage">
                 <Insets left="5" right="5"/>
             </Button>
         </HBox>
