@@ -1,4 +1,4 @@
-package Prolect.Chat;
+package ru.geekbrains.january_chat.chat_client;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class ExampleApplication extends Application {
+public class ChatApplication extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -20,6 +20,7 @@ public class ExampleApplication extends Application {
         Parent parent = loader.load();
         Scene scene = new Scene(parent);
         primaryStage.setScene(scene);
+        primaryStage.setTitle("January Chat");
         primaryStage.show();
     }
 }
