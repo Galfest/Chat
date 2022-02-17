@@ -5,56 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.1">
-      <change afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/MainChatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/network/MessageProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/network/NetworkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/ChatApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/Launcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/MainChatController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/network/MessageProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/network/NetworkService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/ru/geekbrains/january_chat/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-common/src/main/java/ru/geekbrains/january_chat/props/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-common/target/classes/ru/geekbrains/january_chat/commands/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-common/target/classes/ru/geekbrains/january_chat/props/PropertyReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/auth/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/auth/InMemoryAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/error/WrongCredentialsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/server/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/auth/AuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/auth/InMemoryAuthService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/error/WrongCredentialsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/server/ClientHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/target/classes/ru/geekbrains/january_chat/chat_server/server/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/Prolect/Chat/ExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/ChatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/Prolect/Chat/Launcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/Prolect/Chat/MainChatController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/resources/mainChatWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/resources/mainChatWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/Prolect/Chat/ExampleApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/Prolect/Chat/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/Prolect/Chat/MainChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/mainChatWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/target/classes/mainChatWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/ru/geekbrains/january_chat/commands/Command.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4/5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2599canABOKDL6SCjJE9IuKoroL" />
@@ -73,6 +32,43 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.january_chat.chat_server.App" />
+      <module name="chat-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.january_chat.chat_server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.january_chat.chat_client.Launcher" />
+      <module name="chat-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.january_chat.chat_client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.1" />
