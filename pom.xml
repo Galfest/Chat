@@ -12,6 +12,7 @@
         <module>chat-server</module>
         <module>chat-client</module>
         <module>chat-common</module>
+        <module>Chat</module>
     </modules>
 
     <properties>
