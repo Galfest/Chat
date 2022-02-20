@@ -107,7 +107,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ru.geekbrains.january_chat.chat_client.Launcher</mainClass>
+                            <mainClass>ru.chat.launcher.Launcher</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -125,7 +125,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>ru.geekbrains.january_chat.chat_client.Launcher</mainClass>
+                            <mainClass>ru.chat.launcher.Launcher</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
