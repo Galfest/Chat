@@ -4,45 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.1">
+    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.3">
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/auth/DatabaseAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/ClientsDatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/clients.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/ChatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/MainChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/MainChatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/network/MessageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/network/MessageProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/geekbrains/january_chat/chat_client/network/NetworkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/network/NetworkService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/src/main/resources/mainChatWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/resources/mainChatWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/mainChatWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/target/classes/mainChatWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/ChatApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/MainChatController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/network/MessageProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/ru/geekbrains/january_chat/chat_client/network/NetworkService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-common/src/main/java/ru/geekbrains/january_chat/props/PropertyReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-common/src/main/java/ru/chat/props/PropertyReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-common/target/classes/ru/geekbrains/january_chat/commands/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-common/target/classes/ru/geekbrains/january_chat/props/PropertyReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/auth/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/auth/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/auth/InMemoryAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/auth/InMemoryAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/error/WrongCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/error/WrongCredentialsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/geekbrains/january_chat/chat_server/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="4/5" />
+        <entry key="$PROJECT_DIR$" value="0.4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +49,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -123,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645120632323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.3">
+      <created>1645368698525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645368698525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
+    <MESSAGE value="0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.3" />
   </component>
 </project>
