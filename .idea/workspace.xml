@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.3">
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/auth/DatabaseAuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/ClientsDatabaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/clients.db" afterDir="false" />
+    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.5">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/error/ChangeNickException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/ChatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/ChatApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/auth/DatabaseAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/auth/DatabaseAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/ClientsDatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/ClientsDatabaseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="0.4" />
+        <entry key="$PROJECT_DIR$" value="0.5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +45,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -51,6 +54,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db" />
@@ -120,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645368698525</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.5">
+      <created>1645455309028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645455309029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +150,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0.1" />
     <MESSAGE value="0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.3" />
+    <MESSAGE value="0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.5" />
   </component>
 </project>

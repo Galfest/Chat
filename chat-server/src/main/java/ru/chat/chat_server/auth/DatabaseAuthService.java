@@ -3,7 +3,7 @@ package ru.chat.chat_server.auth;
 import ru.chat.chat_server.db.ClientsDatabaseService;
 import ru.chat.chat_server.entity.User;
 
-public class DatabaseAuthService implements AuthService{
+public class DatabaseAuthService implements AuthService {
     private ClientsDatabaseService dbService;
 
     @Override
@@ -17,17 +17,27 @@ public class DatabaseAuthService implements AuthService{
     }
 
     @Override
-    public String authorizeUserByLoginAndPassword(String login, String password) {
-        return dbService.getClientNameByLoginPass(login, password);
+    public String authorizeUserByLoginAndPassword(String login, String pass) {
+        return dbService.getClientNameByLoginPass(login, pass);
     }
 
     @Override
     public String changeNick(String login, String newNick) {
-        return null;
+        return dbService.changeNick(login, newNick);
     }
 
     @Override
-    public User createNewUser(String login, String password, String nick) {
+    public void changePassword(String username, String oldPassword, String newPassword) {
+
+    }
+
+    @Override
+    public void resetPassword(String login, String newPass, String secret) {
+
+    }
+
+    @Override
+    public User createNewUser(String login, String password, String nickname) {
         return null;
     }
 
@@ -36,13 +46,7 @@ public class DatabaseAuthService implements AuthService{
 
     }
 
-    @Override
-    public void changePassword(String login, String oldPass, String newPass) {
-
-    }
-
-    @Override
-    public void resetPassword(String login, String newPass, String secret) {
+    public void deleteUser(String nickname) {
 
     }
 }
