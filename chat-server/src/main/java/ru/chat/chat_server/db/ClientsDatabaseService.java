@@ -8,13 +8,13 @@ import java.sql.*;
 
 public class ClientsDatabaseService {
     private static final String DRIVER = "org.sqlite.JDBC";
-    private static final String CONNECTION = "jdbc:sqlite:clients.db";
-    private static final String GET_USERNAME = "select username from clients where login = ? and password = ?";
-    private static final String CHANGE_USERNAME = "update client set username = ? where login = ?";
-    private static final String CREATE_DB = "create table if not exist clients(id integer primary key autoincrement" +
-            "login test unique not null, password text not null, username text unique not null);";
-    private static final String INIT_DB = "insert into clients (login, password, username)" +
-            "values ('log1', 'pass1', 'GodOfChat), ('log1', 'pass2', 'FirstMinion'), ('log3', 'pass3', 'SecondMinion');";
+    private static final String CONNECTION = "jdbc:sqlite:data/clients.db";
+    private static final String GET_USERNAME = "select username from clients where login = ? and password = ?;";
+    private static final String CHANGE_USERNAME = "update clients set username = ? where login = ?;";
+    private static final String CREATE_DB = "create table if not exists clients (id integer primary key autoincrement," +
+            " login text unique not null, password text not null, username text unique not null);";
+    private static final String INIT_DB = "insert into clients (login, password, username) " +
+            "values ('log1', 'pass1', 'user1'), ('log2', 'pass2', 'user2'), ('log3', 'pass3', 'user3');";
     private static ClientsDatabaseService instance;
     private static Connection connection;
 
@@ -27,7 +27,7 @@ public class ClientsDatabaseService {
         }catch (ClassNotFoundException | SQLException e){
             e.printStackTrace();
         }
-       createDb();
+       //createDb();
     }
 
     public String changeNick(String login, String newNick) {
