@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="NullPointerException">
+    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.6">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_mac_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_15_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_36_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/network/HistoryMaker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/ClientsDatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/ClientsDatabaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/db/clients.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/clients.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-server/src/main/java/ru/chat/chat_server/server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/MainChatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/java/ru/chat/launcher/network/MainChatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/src/main/resources/mainChatWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/src/main/resources/mainChatWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-client/target/classes/mainChatWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/chat-client/target/classes/mainChatWindow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="0.5" />
+        <entry key="$PROJECT_DIR$" value="0.6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -64,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatApplication">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.chat.chat_server.App" />
       <module name="chat-server" />
@@ -83,7 +91,7 @@
       <module name="chat-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.chat.launcher.*" />
+          <option name="PATTERN" value="ru.chat.launcher.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Launcher (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.chat.launcher.Launcher" />
       <module name="chat-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.chat.launcher.*" />
+          <option name="PATTERN" value="ru.chat.launcher.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,15 +113,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.App (1)" />
-      <item itemvalue="Application.Launcher (1)" />
       <item itemvalue="Application.ChatApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChatApplication" />
-        <item itemvalue="Application.Launcher (1)" />
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.ChatApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645471507993</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="0.6">
+      <created>1645529668972</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645529668972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +190,8 @@
     <MESSAGE value="0.3" />
     <MESSAGE value="0.5" />
     <MESSAGE value="NullPointerException" />
-    <option name="LAST_COMMIT_MESSAGE" value="NullPointerException" />
+    <MESSAGE value="0.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
