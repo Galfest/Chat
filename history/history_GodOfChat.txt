@@ -1,0 +1,11 @@
+[GodOfChat]: 1
+[GodOfChat]: 2
+[GodOfChat]: 3
+[GodOfChat]: 4
+[GodOfChat]: 5
+[GodOfChat]: 6
+[GodOfChat]: 7
+[GodOfChat]: 8
+[GodOfChat]: 9
+[GodOfChat]: 0
+Test is done!
