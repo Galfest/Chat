@@ -9,6 +9,7 @@
         <module name="chat-server" />
         <module name="chat-client" />
         <module name="chat-common" />
+        <module name="HW" />
       </profile>
     </annotationProcessing>
   </component>
