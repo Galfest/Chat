@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="HW6">
+    <list default="true" id="c2a9c334-c907-4765-af04-2931d393fb0f" name="Changes" comment="0.15">
+      <change afterPath="$PROJECT_DIR$/HW/src/main/java/HW7/AfterSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW/src/main/java/HW7/BeforeSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW/src/main/java/HW7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW/src/main/java/HW7/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW/src/main/java/HW7/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,7 +41,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW6" />
+        <entry key="$PROJECT_DIR$" value="0.14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +63,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -72,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task1">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.chat.chat_server.App" />
       <module name="chat-server" />
@@ -112,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HW4.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HW7.Main" />
       <module name="HW" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HW4.*" />
+          <option name="PATTERN" value="HW7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,17 +148,17 @@
     <list>
       <item itemvalue="Application.Launcher" />
       <item itemvalue="Application.App (1)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646597502107</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.15">
+      <created>1646823925039</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646823925039</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +280,8 @@
     <MESSAGE value="HW3" />
     <MESSAGE value="0.12" />
     <MESSAGE value="HW6" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
+    <MESSAGE value="0.15" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
